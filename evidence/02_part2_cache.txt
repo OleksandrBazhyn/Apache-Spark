@@ -1,0 +1,17 @@
+app: hw5-part2 cache  id: local-1793305530827  master: local[4]  file: file:///work/data/transactions.csv
+warm-up (no cache): pair of actions 6.599 s
+cache run 1, pair 1: 5.539 s (count=6000000, daily=3650)
+cache run 1, pair 2: 1.761 s (count=6000000, daily=3650)
+cache run 1, pair 3: 1.749 s (count=6000000, daily=3650)
+cache run 1, pair 4: 1.811 s (count=6000000, daily=3650)
+cache run 2, pair 1: 5.207 s (count=6000000, daily=3650)
+cache run 2, pair 2: 1.486 s (count=6000000, daily=3650)
+cache run 2, pair 3: 1.583 s (count=6000000, daily=3650)
+cache run 2, pair 4: 1.553 s (count=6000000, daily=3650)
+cache run 3, pair 1: 4.833 s (count=6000000, daily=3650)
+cache run 3, pair 2: 1.585 s (count=6000000, daily=3650)
+cache run 3, pair 3: 1.540 s (count=6000000, daily=3650)
+cache run 3, pair 4: 1.564 s (count=6000000, daily=3650)
+first pair after cache(): 5.5387, 5.2069, 4.8333 s; median 5.2069 s
+following pairs (from cache): 1.7614, 1.7489, 1.8106, 1.4860, 1.5829, 1.5525, 1.5853, 1.5402, 1.5641 s; median 1.5829 s
+Storage: RDD 64 'PythonRDD' 8/8 partitions cached, memory 64814355 B (61.8 MiB), disk 0 B

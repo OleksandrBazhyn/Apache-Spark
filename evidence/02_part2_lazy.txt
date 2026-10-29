@@ -1,0 +1,7 @@
+app: hw5-part2 lazy  id: local-1793306101739  master: local[4]  file: file:///work/data/transactions.csv
+warm-up: build 0.3243 s, action 4.890 s -> (36633009777, 'travel', 3650)
+run 1: build 0.0473 s, action 3.600 s -> (36633009777, 'travel', 3650)
+run 2: build 0.0511 s, action 3.746 s -> (36633009777, 'travel', 3650)
+run 3: build 0.0333 s, action 3.723 s -> (36633009777, 'travel', 3650)
+build chain (textFile .. last map): 0.0473, 0.0511, 0.0333 s; median 0.0473 s
+action reduce(): 3.6004, 3.7461, 3.7232 s; median 3.7232 s

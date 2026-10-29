@@ -1,0 +1,247 @@
+
+=== hw5-part1 rdd-chain  (local-1793304689155)
+job 0 [SUCCEEDED] 'reduce at /work/my_part1.py:48': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 0: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 1: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 2: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part1.py:48': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 3: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 4: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 5: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part1.py:48': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 6: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 7: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 8: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part1.py:48': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 9: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 10: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 11: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=c12ebe80133b:41751 cores=4 tasks=96 maxMemory=1048.8 MiB
+
+=== hw5-part3 local[1] block=32MB  (local-1793304789931)
+job 0 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 0: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 1: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 2: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 3: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 4: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 5: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 6: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 7: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 8: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 9: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 10: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 11: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=566d3357aa3a:46247 cores=1 tasks=96 maxMemory=1048.8 MiB
+
+=== hw5-part3 local[2] block=32MB  (local-1793304839268)
+job 0 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 0: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 1: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 2: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 3: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 4: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 5: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 6: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 7: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 8: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 9: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 10: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 11: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=7578b8b0cfba:35831 cores=2 tasks=96 maxMemory=1048.8 MiB
+
+=== hw5-part3 local[4] block=32MB  (local-1793304869380)
+job 0 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 0: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 1: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 2: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 3: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 4: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 5: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 6: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 7: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 8: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 9: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 10: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 11: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=46403618a9ea:38459 cores=4 tasks=96 maxMemory=1048.8 MiB
+
+=== hw5-part3 local[1] block=128MB  (local-1793304888087)
+job 0 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 0: 2 tasks, input 238.1 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 1: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 2: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 3: 2 tasks, input 238.1 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 4: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 5: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 6: 2 tasks, input 238.1 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 7: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 8: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 9: 2 tasks, input 238.1 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 10: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 11: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=066a0ee4809d:34243 cores=1 tasks=24 maxMemory=1048.8 MiB
+
+=== hw5-part3 local[2] block=128MB  (local-1793304935339)
+job 0 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 0: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 1: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 2: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 3: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 4: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 5: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 6: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 7: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 8: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 9: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 10: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 11: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=bcc50f29b6fd:43063 cores=2 tasks=24 maxMemory=1048.8 MiB
+
+=== hw5-part3 local[4] block=128MB  (local-1793304960804)
+job 0 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 0: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 1: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 2: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 3: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 4: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 5: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 6: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 7: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 8: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part3.py:52': tasks 6 (completed 6, skipped 0, failed 0)
+    stage 9: 2 tasks, input 238.2 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.1 MiB
+    stage 10: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.1 MiB, shuffle write 0.0 MiB
+    stage 11: 2 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=825d935e6b6b:34293 cores=4 tasks=24 maxMemory=1048.8 MiB
+
+=== hw5-part2 cache  (local-1793305530827)
+job 0 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 0: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 1: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 2: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 3: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 4: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 5: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 4 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 6: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 5 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 7: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 8: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 6 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 9: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 7 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 10: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 11: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 8 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 12: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 9 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 13: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 14: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 10 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 15: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 11 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 16: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 17: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 12 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 18: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 13 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 19: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 20: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 14 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 21: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 15 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 22: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 23: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 16 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 24: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 17 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 25: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 26: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 18 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 27: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 19 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 28: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 29: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 20 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 30: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 21 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 31: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 32: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 22 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 33: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 23 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 34: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 35: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 24 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 36: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 25 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 37: 8 tasks, input 61.8 MiB (3012 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 38: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+executor id=driver host=517f147d0144:36617 cores=4 tasks=312 maxMemory=1048.8 MiB
+
+=== hw5-part2 lazy  (local-1793306101739)
+job 0 [SUCCEEDED] 'reduce at /work/my_part2.py:59': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 0: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 1: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 2: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'reduce at /work/my_part2.py:59': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 3: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 4: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 5: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'reduce at /work/my_part2.py:59': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 6: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 7: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 8: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'reduce at /work/my_part2.py:59': tasks 24 (completed 24, skipped 0, failed 0)
+    stage 9: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 10: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+    stage 11: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+executor id=driver host=7c641bcf0356:39027 cores=4 tasks=96 maxMemory=1048.8 MiB
+
+=== hw5-part2 nocache  (local-1793306123375)
+job 0 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 0: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 1 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 1: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 2: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 2 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 3: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 3 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 4: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 5: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 4 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 6: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 5 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 7: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 8: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+job 6 [SUCCEEDED] 'count at /work/my_part2.py:78': tasks 8 (completed 8, skipped 0, failed 0)
+    stage 9: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.0 MiB
+job 7 [SUCCEEDED] 'count at /work/my_part2.py:79': tasks 16 (completed 16, skipped 0, failed 0)
+    stage 10: 8 tasks, input 238.5 MiB (6000001 rec), shuffle read 0.0 MiB, shuffle write 0.3 MiB
+    stage 11: 8 tasks, input 0.0 MiB (0 rec), shuffle read 0.3 MiB, shuffle write 0.0 MiB
+executor id=driver host=2b1916c7727a:38563 cores=4 tasks=96 maxMemory=1048.8 MiB
+
+=== hw5-part2 bug  (local-1793306151621)
+job 0 [FAILED] 'reduce at /work/my_part2.py:72': tasks 24 (completed 0, skipped 16, failed 4), skipped stages [1, 2]
+executor id=driver host=bdbdf515b085:35255 cores=4 tasks=7 maxMemory=1048.8 MiB

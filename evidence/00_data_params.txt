@@ -1,0 +1,11 @@
+file: data/transactions.csv
+bytes: 249645507
+md5: d4ed433e75a7b5348a446c3d89d23d34
+lines (with header): 6000001
+data rows: 6000000
+users: 5000
+categories: 10
+days: 365
+date range: 2026-01-01 2026-12-31
+seed: 42 (python3 generate_transactions.py, defaults)
+regenerated with same seed -> md5 d4ed433e75a7b5348a446c3d89d23d34 (identical => generator is deterministic)

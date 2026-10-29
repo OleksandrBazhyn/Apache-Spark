@@ -1,0 +1,5 @@
+warm-up: total 34.4 s (hadoop jar wall time), job1 19.2 s, job2 12.1 s, map tasks ['2', '1']
+run 1: total 33.3 s (hadoop jar wall time), job1 17.1 s, job2 13.1 s, map tasks ['2', '1']
+run 2: total 29.9 s (hadoop jar wall time), job1 15.1 s, job2 12.1 s, map tasks ['2', '1']
+run 3: total 32.0 s (hadoop jar wall time), job1 17.1 s, job2 12.1 s, map tasks ['2', '1']
+median total: 32.0 s

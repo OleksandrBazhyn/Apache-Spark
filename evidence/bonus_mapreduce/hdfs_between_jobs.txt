@@ -1,0 +1,7 @@
+111507  334521  /hw5/out1
+Found 2 items
+-rw-r--r--   3 root supergroup          0 2026-10-29 20:33 /hw5/out1/_SUCCESS
+-rw-r--r--   3 root supergroup     111507 2026-10-29 20:33 /hw5/out1/part-r-00000
+1	travel	366330097.77
+2	electronics	301616878.77
+3	groceries	137056772.15

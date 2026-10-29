@@ -1,0 +1,6 @@
+app: hw5-part2 nocache  id: local-1793306123375  master: local[4]  file: file:///work/data/transactions.csv
+warm-up: pair of actions 7.281 s (count=6000000, daily=3650)
+run 1: pair of actions 5.466 s (count=6000000, daily=3650)
+run 2: pair of actions 5.255 s (count=6000000, daily=3650)
+run 3: pair of actions 5.188 s (count=6000000, daily=3650)
+pair of actions without cache: 5.4665, 5.2552, 5.1884 s; median 5.2552 s

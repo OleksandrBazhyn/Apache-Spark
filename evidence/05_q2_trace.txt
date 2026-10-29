@@ -1,0 +1,17 @@
+line 100: '4574,2026-08-17T09:54:00,clothing,294.13' -> parse() = (('2026-08-17', 'clothing'), 29413)
+line 101: '5723,2026-10-08T11:46:00,restaurants,104.73' -> parse() = (('2026-10-08', 'restaurants'), 10473)
+line 102: '1013,2026-11-14T12:39:00,groceries,8.57' -> parse() = (('2026-11-14', 'groceries'), 857)
+Task 1 record ('2026-08-17', 'clothing'): 27912314 cents = 279123.14
+Task 1 record ('2026-10-08', 'restaurants'): 31078882 cents = 310788.82
+Task 1 record ('2026-11-14', 'groceries'): 37229853 cents = 372298.53
+Task 1 records total: 3650
+category travel         366330097.77
+category electronics    301616878.77
+category groceries      137056772.15
+category restaurants    110733128.42
+category clothing       98324490.65
+category health         75471429.47
+category transport      54701426.23
+category entertainment  53615720.01
+category utilities      28680529.18
+category books          15265035.89

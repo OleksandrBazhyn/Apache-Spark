@@ -1,0 +1,48 @@
+$ spark-submit --master "local[1]"  my_part3.py
+app: hw5-part3 local[1] block=32MB  id: local-1793304789931  file: file:///work/data/transactions.csv
+master: local[1]  defaultParallelism: 1  fs.local.block.size: 33554432
+warm-up: partitions 8, job 0: 24 tasks (stage 0: 8, stage 1: 8, stage 2: 8), time 11.822 s
+run 1: partitions 8, job 1: 24 tasks (stage 3: 8, stage 4: 8, stage 5: 8), time 10.992 s
+run 2: partitions 8, job 2: 24 tasks (stage 6: 8, stage 7: 8, stage 8: 8), time 10.704 s
+run 3: partitions 8, job 3: 24 tasks (stage 9: 8, stage 10: 8, stage 11: 8), time 10.758 s
+RESULT master=local[1] block=32MB partitions=8 times=10.992,10.704,10.758 median=10.758
+$ spark-submit --master "local[2]"  my_part3.py
+app: hw5-part3 local[2] block=32MB  id: local-1793304839268  file: file:///work/data/transactions.csv
+master: local[2]  defaultParallelism: 2  fs.local.block.size: 33554432
+warm-up: partitions 8, job 0: 24 tasks (stage 0: 8, stage 1: 8, stage 2: 8), time 7.289 s
+run 1: partitions 8, job 1: 24 tasks (stage 3: 8, stage 4: 8, stage 5: 8), time 5.897 s
+run 2: partitions 8, job 2: 24 tasks (stage 6: 8, stage 7: 8, stage 8: 8), time 5.919 s
+run 3: partitions 8, job 3: 24 tasks (stage 9: 8, stage 10: 8, stage 11: 8), time 6.024 s
+RESULT master=local[2] block=32MB partitions=8 times=5.897,5.919,6.024 median=5.919
+$ spark-submit --master "local[4]"  my_part3.py
+app: hw5-part3 local[4] block=32MB  id: local-1793304869380  file: file:///work/data/transactions.csv
+master: local[4]  defaultParallelism: 4  fs.local.block.size: 33554432
+warm-up: partitions 8, job 0: 24 tasks (stage 0: 8, stage 1: 8, stage 2: 8), time 4.429 s
+run 1: partitions 8, job 1: 24 tasks (stage 3: 8, stage 4: 8, stage 5: 8), time 3.384 s
+run 2: partitions 8, job 2: 24 tasks (stage 6: 8, stage 7: 8, stage 8: 8), time 3.199 s
+run 3: partitions 8, job 3: 24 tasks (stage 9: 8, stage 10: 8, stage 11: 8), time 2.941 s
+RESULT master=local[4] block=32MB partitions=8 times=3.384,3.199,2.941 median=3.199
+$ spark-submit --master "local[1]" --conf spark.hadoop.fs.local.block.size=134217728 my_part3.py
+app: hw5-part3 local[1] block=128MB  id: local-1793304888087  file: file:///work/data/transactions.csv
+master: local[1]  defaultParallelism: 1  fs.local.block.size: 134217728
+warm-up: partitions 2, job 0: 6 tasks (stage 0: 2, stage 1: 2, stage 2: 2), time 11.561 s
+run 1: partitions 2, job 1: 6 tasks (stage 3: 2, stage 4: 2, stage 5: 2), time 10.404 s
+run 2: partitions 2, job 2: 6 tasks (stage 6: 2, stage 7: 2, stage 8: 2), time 10.225 s
+run 3: partitions 2, job 3: 6 tasks (stage 9: 2, stage 10: 2, stage 11: 2), time 10.434 s
+RESULT master=local[1] block=128MB partitions=2 times=10.404,10.225,10.434 median=10.404
+$ spark-submit --master "local[2]" --conf spark.hadoop.fs.local.block.size=134217728 my_part3.py
+app: hw5-part3 local[2] block=128MB  id: local-1793304935339  file: file:///work/data/transactions.csv
+master: local[2]  defaultParallelism: 2  fs.local.block.size: 134217728
+warm-up: partitions 2, job 0: 6 tasks (stage 0: 2, stage 1: 2, stage 2: 2), time 5.901 s
+run 1: partitions 2, job 1: 6 tasks (stage 3: 2, stage 4: 2, stage 5: 2), time 5.106 s
+run 2: partitions 2, job 2: 6 tasks (stage 6: 2, stage 7: 2, stage 8: 2), time 5.069 s
+run 3: partitions 2, job 3: 6 tasks (stage 9: 2, stage 10: 2, stage 11: 2), time 4.902 s
+RESULT master=local[2] block=128MB partitions=2 times=5.106,5.069,4.902 median=5.069
+$ spark-submit --master "local[4]" --conf spark.hadoop.fs.local.block.size=134217728 my_part3.py
+app: hw5-part3 local[4] block=128MB  id: local-1793304960804  file: file:///work/data/transactions.csv
+master: local[4]  defaultParallelism: 4  fs.local.block.size: 134217728
+warm-up: partitions 2, job 0: 6 tasks (stage 0: 2, stage 1: 2, stage 2: 2), time 5.925 s
+run 1: partitions 2, job 1: 6 tasks (stage 3: 2, stage 4: 2, stage 5: 2), time 5.007 s
+run 2: partitions 2, job 2: 6 tasks (stage 6: 2, stage 7: 2, stage 8: 2), time 5.351 s
+run 3: partitions 2, job 3: 6 tasks (stage 9: 2, stage 10: 2, stage 11: 2), time 5.469 s
+RESULT master=local[4] block=128MB partitions=2 times=5.007,5.351,5.469 median=5.351

@@ -1,0 +1,20 @@
+app: hw5-part1 rdd-chain  id: local-1793304689155  master: local[4]  file: file:///work/data/transactions.csv
+textFile partitions: 8
+warm-up: action reduce() took 4.060 s
+run 1: action reduce() took 2.998 s
+run 2: action reduce() took 3.031 s
+run 3: action reduce() took 2.912 s
+times (s): 2.998, 3.031, 2.912; median: 2.998
+leader: travel  sum: 366330097.77  Task 1 records: 3650
+lineage of the Task 2 RDD:
+(8) PythonRDD[54] at RDD at PythonRDD.scala:59 []
+ |  MapPartitionsRDD[52] at mapPartitions at PythonRDD.scala:197 []
+ |  ShuffledRDD[51] at partitionBy at DirectMethodHandleAccessor.java:103 []
+ +-(8) PairwiseRDD[50] at reduceByKey at /work/my_part1.py:32 []
+    |  PythonRDD[49] at reduceByKey at /work/my_part1.py:32 []
+    |  MapPartitionsRDD[48] at mapPartitions at PythonRDD.scala:197 []
+    |  ShuffledRDD[47] at partitionBy at DirectMethodHandleAccessor.java:103 []
+    +-(8) PairwiseRDD[46] at reduceByKey at /work/my_part1.py:30 []
+       |  PythonRDD[45] at reduceByKey at /work/my_part1.py:30 []
+       |  file:///work/data/transactions.csv MapPartitionsRDD[44] at textFile at DirectMethodHandleAccessor.java:103 []
+       |  file:///work/data/transactions.csv HadoopRDD[43] at textFile at DirectMethodHandleAccessor.java:103 []

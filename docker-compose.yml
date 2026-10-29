@@ -1,0 +1,33 @@
+# Spark 4.2.0 у локальному режимі (local[4], heap 2 ГБ) + History Server.
+# Відтворення середовища до ДЗ (оригінальний архів до завдання не надавався).
+services:
+  spark:
+    image: apache/spark:4.2.0-python3
+    working_dir: /work
+    environment:
+      HOME: /tmp
+      PATH: /opt/spark/bin:/opt/spark/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      SPARK_CONF_DIR: /work/conf
+      PYTHONUNBUFFERED: "1"
+    volumes:
+      - ./:/work:z
+      - ./spark-events:/tmp/spark-events:z
+    ports:
+      - "4040:4040"
+    entrypoint: []
+    command: ["bash"]
+
+  history:
+    image: apache/spark:4.2.0-python3
+    environment:
+      HOME: /tmp
+      PATH: /opt/spark/bin:/opt/spark/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      SPARK_CONF_DIR: /work/conf
+      SPARK_NO_DAEMONIZE: "true"
+    volumes:
+      - ./:/work:z
+      - ./spark-events:/tmp/spark-events:z
+    ports:
+      - "18080:18080"
+    entrypoint: []
+    command: ["/opt/spark/sbin/start-history-server.sh"]
